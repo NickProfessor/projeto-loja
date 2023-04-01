@@ -1,0 +1,163 @@
+body{
+    background-color: #c46902;
+}
+
+header{
+    background: #F88600;
+    padding-bottom: 10px;
+
+}
+
+.cabecalho{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+#logo{
+    width: 140px;
+    display: inline-block;
+
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 60px;
+   
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    color:rgba(0, 0, 0, 0.719);
+    text-decoration: underline;
+}
+
+.pagina{
+
+        width: 1000PX;
+        padding: 30px 0;
+        margin: 0 auto;
+        background: #ececec;
+        border-radius: 2px;
+    
+}
+
+form, table{
+    margin-left: 36px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+form label, form legend, table{
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input-padrao{
+    display: block;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-bottom: 60px;
+    padding: 10px;
+    width: 40%;
+    background: #c9b8b8;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.horario{
+    margin: 25px 0;
+}
+.horario-opcoes{
+    width: 150px;
+    font-size: 22px;
+    background: #c9b8b8;
+    color: white;
+    border-radius: 7px;
+    padding-left: 10px;
+    transition: 1s background;
+    cursor: pointer;
+    border: none;
+}
+
+table td, table tr, th{
+    padding: 0 7px;
+    border: solid 2px black;
+    background: #ffffff;
+}
+
+thead th{
+    background: #ff8800;
+    font-weight: bold;
+}
+
+
+.botaoenviar{
+    font-size: 26px;
+    font-weight: bold;
+    border: none;
+    border-color: #ffffff;
+    border-radius: 15px;
+    background: #ff9100;
+    color: #ffffff;
+    width: 35%;
+    height: 45px;
+    margin: 20px 0;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botaoenviar:hover{
+    background: #f7921f;
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+.rodape{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+footer{
+    background: url(./img/fundo-rodape.png);
+    height: 300px;
+    text-align: center;
+}
+
+.logo-rodape{
+    width: 180px;
+    margin-top: 30px;
+    border: solid 2px white;
+}
+
+.copyright{
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 20px 0;
+    
+}

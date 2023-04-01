@@ -1,0 +1,140 @@
+body{
+    background-color: #c46902;
+}
+
+header{
+    background: #F88600;
+    padding-bottom: 10px;
+
+}
+
+.cabecalho{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+#logo{
+    width: 140px;
+    display: inline-block;
+
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 60px;
+   
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    color:rgba(0, 0, 0, 0.719);
+    text-decoration: underline;
+}
+
+.produtos li:hover {
+    border-color: red;
+}
+
+.produtos li:hover .produto{
+    width:210px;
+}
+
+.produtos li:hover h2{
+    font-size :35px;
+}
+.produtos li:hover .desc{
+    font-size: 20px;
+}
+.produtos li:hover .valor{
+    font-size: 35px;
+}
+.produtos{
+    width: 1000PX;
+    padding: 10px 0;
+    margin: 0 auto;
+    background: #ececec;
+    border-radius: 2px;
+}
+
+.produtos h2{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.produtos a{
+    text-decoration: none;
+    color: black;
+}
+.produto{
+    height: 200px;
+}
+.produtos li{
+    display: inline-block;
+    background: #ffffff;
+    text-align: center;
+    width: 32%;
+    vertical-align: top;
+    padding: 40px 20px;
+    margin: 1% 0.5%;
+    box-sizing: border-box;
+    border-color: rgba(68, 64, 26, 0.514);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+.desc{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.valor{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rodape{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+footer{
+    background: url(./img/fundo-rodape.png);
+    height: 300px;
+    text-align: center;
+}
+
+.logo-rodape{
+    width: 180px;
+    margin-top: 30px;
+    border: solid 2px white;
+}
+
+.copyright{
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 20px 0;
+    
+}
+
+

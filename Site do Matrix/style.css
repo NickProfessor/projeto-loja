@@ -1,0 +1,160 @@
+body{
+    background-color: #c46902;
+}
+
+header{
+    background: #F88600;
+    margin-bottom: 200px;
+
+}
+ /* Cabeçalho padrão */
+.cabecalho{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#logo{
+    width: 140px;
+    display: inline-block;
+
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 60px;
+   
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    color:rgba(0, 0, 0, 0.719);
+    text-decoration: underline;
+}
+/*configuração padrao da pagina principal*/
+.pagina{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    background: #ececec;
+    padding: 30px 0;
+    border-radius: 2px;
+}
+
+/*Apresentação do Matrix*/
+.titulo{
+    font-size:3em;
+    color: #000000;
+    width: 50%;
+    padding: 0.8%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.apresentacao a{
+    text-decoration: none;
+}
+
+#fundador{
+    font-size: 12px;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ff1100cc;
+}
+
+.falamatrix{
+    font-size:22px;
+    color: #000000cb;
+    width: 50%;
+    padding: 0.8%;
+    padding-left: 10px;
+    font-style: italic;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+}
+
+.matrix{
+    width: 250px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 5px;
+    top: 20px;
+    right: 50px;
+}
+
+
+
+
+.link{
+    color: #f88600;
+}
+
+p :hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/*lista de beneficios*/
+.beneficios{
+    margin: 50px 0;
+
+}
+
+.beneficio{
+    margin: 0 0 1em 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+/*rodape padrao*/
+.rodape{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+footer{
+    background: url(./img/fundo-rodape.png);
+    height: 300px;
+    text-align: center;
+}
+
+.logo-rodape{
+    width: 180px;
+    margin-top: 30px;
+    border: solid 2px white;
+}
+
+.copyright{
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 20px 0;
+    
+}
